@@ -1,0 +1,15 @@
+body>div.container{
+    background-color: red;
+    height: 1000px;
+    
+}
+
+.item{
+    height:300px;
+    background-color: blue;
+}
+
+.item:nth-child(2n){
+    height:300px;
+    background-color: green;
+}
